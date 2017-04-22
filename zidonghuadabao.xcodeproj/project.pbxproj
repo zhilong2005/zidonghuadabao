@@ -15,6 +15,9 @@
 		17A66EA21EA6EBFF00BBB811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A66EA01EA6EBFF00BBB811 /* LaunchScreen.storyboard */; };
 		17A66EAD1EA6EC0000BBB811 /* zidonghuadabaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A66EAC1EA6EC0000BBB811 /* zidonghuadabaoTests.m */; };
 		17A66EB81EA6EC0000BBB811 /* zidonghuadabaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A66EB71EA6EC0000BBB811 /* zidonghuadabaoUITests.m */; };
+		290DEF1CBCB5A0723C709BBF /* libPods-zidonghuadabaoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A1917C00126F1B393DCA40 /* libPods-zidonghuadabaoTests.a */; };
+		A2245801BB33983E4F5178B2 /* libPods-zidonghuadabao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6565963D14CC878507DB68D /* libPods-zidonghuadabao.a */; };
+		E4EAB7CBE70674FE68E62CB5 /* libPods-zidonghuadabaoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FBA8B083C5358B8445B1A9 /* libPods-zidonghuadabaoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		17A66EB31EA6EC0000BBB811 /* zidonghuadabaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zidonghuadabaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A66EB71EA6EC0000BBB811 /* zidonghuadabaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zidonghuadabaoUITests.m; sourceTree = "<group>"; };
 		17A66EB91EA6EC0000BBB811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36409A36B8BAA57DD5F2883D /* Pods-zidonghuadabao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zidonghuadabao.release.xcconfig"; path = "Pods/Target Support Files/Pods-zidonghuadabao/Pods-zidonghuadabao.release.xcconfig"; sourceTree = "<group>"; };
+		39FBA8B083C5358B8445B1A9 /* libPods-zidonghuadabaoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zidonghuadabaoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60480C4B949448C938C98A7A /* Pods-zidonghuadabaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zidonghuadabaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zidonghuadabaoUITests/Pods-zidonghuadabaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7059398AC06BB4A0B9B45D18 /* Pods-zidonghuadabao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zidonghuadabao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zidonghuadabao/Pods-zidonghuadabao.debug.xcconfig"; sourceTree = "<group>"; };
+		746631517440FC17E2755670 /* Pods-zidonghuadabaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zidonghuadabaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zidonghuadabaoTests/Pods-zidonghuadabaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5A1917C00126F1B393DCA40 /* libPods-zidonghuadabaoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zidonghuadabaoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E779F45DE0E7836A172067 /* Pods-zidonghuadabaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zidonghuadabaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zidonghuadabaoTests/Pods-zidonghuadabaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA77BF2A6A982008EC9F4FCB /* Pods-zidonghuadabaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zidonghuadabaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zidonghuadabaoUITests/Pods-zidonghuadabaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6565963D14CC878507DB68D /* libPods-zidonghuadabao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zidonghuadabao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2245801BB33983E4F5178B2 /* libPods-zidonghuadabao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290DEF1CBCB5A0723C709BBF /* libPods-zidonghuadabaoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EAB7CBE70674FE68E62CB5 /* libPods-zidonghuadabaoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				17A66EAB1EA6EC0000BBB811 /* zidonghuadabaoTests */,
 				17A66EB61EA6EC0000BBB811 /* zidonghuadabaoUITests */,
 				17A66E901EA6EBFF00BBB811 /* Products */,
+				838C0783B41FFE9667570DAC /* Pods */,
+				FBDB27A4F7582B4234B8C9AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = zidonghuadabaoUITests;
 			sourceTree = "<group>";
 		};
+		838C0783B41FFE9667570DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7059398AC06BB4A0B9B45D18 /* Pods-zidonghuadabao.debug.xcconfig */,
+				36409A36B8BAA57DD5F2883D /* Pods-zidonghuadabao.release.xcconfig */,
+				C8E779F45DE0E7836A172067 /* Pods-zidonghuadabaoTests.debug.xcconfig */,
+				746631517440FC17E2755670 /* Pods-zidonghuadabaoTests.release.xcconfig */,
+				60480C4B949448C938C98A7A /* Pods-zidonghuadabaoUITests.debug.xcconfig */,
+				CA77BF2A6A982008EC9F4FCB /* Pods-zidonghuadabaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBDB27A4F7582B4234B8C9AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6565963D14CC878507DB68D /* libPods-zidonghuadabao.a */,
+				B5A1917C00126F1B393DCA40 /* libPods-zidonghuadabaoTests.a */,
+				39FBA8B083C5358B8445B1A9 /* libPods-zidonghuadabaoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A66EBC1EA6EC0000BBB811 /* Build configuration list for PBXNativeTarget "zidonghuadabao" */;
 			buildPhases = (
+				15388BD2DB50DD0AC2C5EFD1 /* [CP] Check Pods Manifest.lock */,
 				17A66E8B1EA6EBFF00BBB811 /* Sources */,
 				17A66E8C1EA6EBFF00BBB811 /* Frameworks */,
 				17A66E8D1EA6EBFF00BBB811 /* Resources */,
+				A4428084D455BC882BCF6567 /* [CP] Embed Pods Frameworks */,
+				A05263E65DDC130297CD240F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A66EBF1EA6EC0000BBB811 /* Build configuration list for PBXNativeTarget "zidonghuadabaoTests" */;
 			buildPhases = (
+				039330C03BE443DB07D764E7 /* [CP] Check Pods Manifest.lock */,
 				17A66EA41EA6EC0000BBB811 /* Sources */,
 				17A66EA51EA6EC0000BBB811 /* Frameworks */,
 				17A66EA61EA6EC0000BBB811 /* Resources */,
+				5EAA3482D6BE2A8AF09470E0 /* [CP] Embed Pods Frameworks */,
+				099A85E7D1CB6C19E1BD0604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A66EC21EA6EC0000BBB811 /* Build configuration list for PBXNativeTarget "zidonghuadabaoUITests" */;
 			buildPhases = (
+				D62D5BB813CB34C5000605FA /* [CP] Check Pods Manifest.lock */,
 				17A66EAF1EA6EC0000BBB811 /* Sources */,
 				17A66EB01EA6EC0000BBB811 /* Frameworks */,
 				17A66EB11EA6EC0000BBB811 /* Resources */,
+				B759E15B5D6B86DB7B9546A4 /* [CP] Embed Pods Frameworks */,
+				4E26D85F7064EE800077C202 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039330C03BE443DB07D764E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		099A85E7D1CB6C19E1BD0604 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zidonghuadabaoTests/Pods-zidonghuadabaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15388BD2DB50DD0AC2C5EFD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E26D85F7064EE800077C202 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zidonghuadabaoUITests/Pods-zidonghuadabaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EAA3482D6BE2A8AF09470E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zidonghuadabaoTests/Pods-zidonghuadabaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05263E65DDC130297CD240F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zidonghuadabao/Pods-zidonghuadabao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4428084D455BC882BCF6567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zidonghuadabao/Pods-zidonghuadabao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B759E15B5D6B86DB7B9546A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zidonghuadabaoUITests/Pods-zidonghuadabaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62D5BB813CB34C5000605FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17A66E8B1EA6EBFF00BBB811 /* Sources */ = {
@@ -425,24 +612,10 @@
 		};
 		17A66EBD1EA6EC0000BBB811 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7059398AC06BB4A0B9B45D18 /* Pods-zidonghuadabao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 56JAM34B5U;
-				INFOPLIST_FILE = zidonghuadabao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zidonghuadabao.cn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f8a49067-eb1d-423e-8bc0-a6fb1f6a92d8";
-				PROVISIONING_PROFILE_SPECIFIER = zidonghuafabu;
-			};
-			name = Debug;
-		};
-		17A66EBE1EA6EC0000BBB811 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sum Payment Service CO., LTD. (56JAM34B5U)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sum Payment Service CO., LTD. (56JAM34B5U)";
 				DEVELOPMENT_TEAM = 56JAM34B5U;
 				INFOPLIST_FILE = zidonghuadabao/Info.plist;
@@ -450,13 +623,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zidonghuadabao.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e98e1637-664b-474e-b9f3-a5e5e54b1ecb";
+				PROVISIONING_PROFILE = "97a0801a-7bd2-4032-9780-c40ad8cb24b9";
+				PROVISIONING_PROFILE_SPECIFIER = zidonghuafabu;
+			};
+			name = Debug;
+		};
+		17A66EBE1EA6EC0000BBB811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36409A36B8BAA57DD5F2883D /* Pods-zidonghuadabao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sum Payment Service CO., LTD. (56JAM34B5U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sum Payment Service CO., LTD. (56JAM34B5U)";
+				DEVELOPMENT_TEAM = 56JAM34B5U;
+				INFOPLIST_FILE = zidonghuadabao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zidonghuadabao.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "97a0801a-7bd2-4032-9780-c40ad8cb24b9";
 				PROVISIONING_PROFILE_SPECIFIER = zidonghuafabu;
 			};
 			name = Release;
 		};
 		17A66EC01EA6EC0000BBB811 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E779F45DE0E7836A172067 /* Pods-zidonghuadabaoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zidonghuadabaoTests/Info.plist;
@@ -469,6 +661,7 @@
 		};
 		17A66EC11EA6EC0000BBB811 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746631517440FC17E2755670 /* Pods-zidonghuadabaoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zidonghuadabaoTests/Info.plist;
@@ -481,6 +674,7 @@
 		};
 		17A66EC31EA6EC0000BBB811 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60480C4B949448C938C98A7A /* Pods-zidonghuadabaoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zidonghuadabaoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -492,6 +686,7 @@
 		};
 		17A66EC41EA6EC0000BBB811 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA77BF2A6A982008EC9F4FCB /* Pods-zidonghuadabaoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zidonghuadabaoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
